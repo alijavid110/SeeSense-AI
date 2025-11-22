@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Website architecture -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Analysis UI with Camera</title>
+    <!-- Pre loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="static\demo\demo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="panel camera-feed-panel">
+            <!-- Video element for live camera feed -->
+            <video id="cameraFeedVideo" autoplay playsinline></video>
+            <!-- Canvas to capture frames 
+            Because you can't directly extract raw image data from <video>, but you can from <canvas>-->
+            <canvas id="cameraCanvas" style="display: none;"></canvas>
+            <!-- Image element to display captured photo -->
+            <img id="capturedImage" alt="Captured Scene">
+            
+            <!-- Status text -->
+            <div class="camera-icon-container" id="cameraIconContainer">
+                <i class="fas fa-camera camera-icon"></i>
+            </div>
+            <div class="camera-feed-text" id="cameraFeedText">Camera Feed</div>
+            <div class="camera-access-info" id="cameraAccessInfo">Camera access will be requested when you start the demo</div>
+
+            <div class="controls">
+                <button class="button analyze" id="analyzeButton">
+                    <i class="fas fa-search"></i> Analyze Scene
+                </button>
+            </div>      
+        </div>
+
+        <!-- Side panel -->
+        <div class="ai-analysis-panel">
+            <div class="panel">
+                <div class="ai-analysis-header">AI Analysis</div>
+                <div class="analysis-display" id="analysisDisplay">
+                    Say "nova, describe", "nova, identify", "nova, read", or "nova, repeat" to begin.
+                </div>
+                <div class="disclaimer-box">
+                    This website captures an image and sends it to an AI model. Any images captured are not stored
+                </div>
+            </div>
+            <div class="analysis-status">
+                <div class="status-header">
+                    <span class="status-dot" id="statusDot"></span> <span id="statusText">Ready to analyze</span>
+                </div>
+                <div class="status-description" id="statusDescription">
+                    Voice control automatically started...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Status indicator -->
+    <div class="listening-indicator" id="listeningIndicator">Listening...</div>
+
+    <script src="static\demo\demo.js"></script>
+</body>
+</html> 

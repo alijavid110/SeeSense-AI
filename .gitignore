@@ -1,0 +1,15 @@
+.env
+*.pyc
+.DS_Store
+.vscode/
+venv/
+__pycache__/
+*.log
+
+# --- Model & cache files ---
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.npz
+*.npy
