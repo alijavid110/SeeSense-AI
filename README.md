@@ -1,4 +1,3 @@
-````markdown
 <h1 align="center">SEESENSE-AI</h1>
 
 <p align="center">
@@ -113,7 +112,6 @@ SeeSense-AI/
 │       ├── demo.html     # Optional demo/experimental view
 │       └── demo.css
 └── venv/                 # Local virtual environment (ignored in git)
-````
 
 ---
 
